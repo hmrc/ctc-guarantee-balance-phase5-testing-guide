@@ -1,5 +1,5 @@
 # Human read-able name for this site, displayed in the header bar
-service_name: CTC Traders Guarantee Balance API phase 5 testing guide
+service_name: CTC Guarantee Balance API phase 5 testing guide
 
 # The route that will be used to access this site (with tailing slash)
 service_link: /guides/ctc-guarantee-balance-phase5-testing-guide/
@@ -41,7 +41,7 @@ collapsible_nav: true
 # Table of contents depth – how many levels to include in the table of contents.
 # If your ToC is too long, reduce this number and we'll only show higher-level
 # headings.
-max_toc_heading_level: 2
+max_toc_heading_level: 3
 
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: false
