@@ -17,9 +17,6 @@ lazy val microservice = Project(appName, file("."))
     update / evictionWarningOptions := EvictionWarningOptions.default.withWarnScalaVersionEviction(false)
   )
   .settings(
-    publishingSettings: _*
-  )
-  .settings(
     scalacOptions ++= Seq(
       "-Wconf:cat=unused&src=views/.*\\.scala:s",
       "-Wconf:cat=unused&src=.*RoutesPrefix\\.scala:s",
