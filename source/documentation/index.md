@@ -28,14 +28,6 @@ For information about accessing the NCTS5 Trader Test environment, see [CTC Trad
 
 For information about actions that must be completed before testing, see the quick start section of the [CTC Guarantee Balance API phase 5 service guide](/guides/ctc-guarantee-balance-phase5-service-guide/#quick-start).
 
-### UK cutover from NCTS4 to NCTS5
-
-After the NCTS5 service goes live, there will be an NCTS4 to NCTS5 cutover period that will affect in-flight and newly created transit declarations. For information about this, see [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/#uk-cutover-from-ncts4-to-ncts5).
-
-The cutover period will not affect [CTC Guarantee Balance API v1.0](/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/1.0) or CTC Guarantee Balance API v2.0. Instead, guarantees will be migrated from NCTS4 to NCTS5 while the UK NCTS4 service is still running, and the NCTS4 service will be used for any guarantee balance check calls to the GMS for the duration of the cutover period.
-
-After the cutover period ends, the UK NCTS5 service will be used for all guarantee balance check calls to the GMS.
-
 ## Navigating CTC Guarantee Balance API v2.0 documentation
 
 The following table lists the documents for CTC Guarantee Balance API v2.0 and outlines the content and intended readers of each document.
@@ -92,13 +84,13 @@ The following table lists the documents for CTC Guarantee Balance API v2.0 and o
 
 The order in you which you might read these documents can depend on whether you have previous NCTS experience. The following table recommends 2 possible reading orders but you can read the documents in any order you want.
 
-| Suggested reading order | New NCTS users | NCTS4 users migrating to NCTS5 |
-| --- | --- | --- |
-| 1 | Roadmap | Service guide |
-| 2 | Service guide | Technical interface specification |
-| 3 | Technical interface specification | Reference |
-| 4 | Reference | Testing guide |
-| 5 | Testing guide | Roadmap |
+| Suggested reading order | New NCTS users                    | NCTS4 users migrating to NCTS5    |
+|-------------------------|-----------------------------------|-----------------------------------|
+| 1                       | Roadmap                           | Service guide                     |
+| 2                       | Service guide                     | Technical interface specification |
+| 3                       | Technical interface specification | Reference                         |
+| 4                       | Reference                         | Testing guide                     |
+| 5                       | Testing guide                     | Roadmap                           |
 
 **Note:** If you have NCTS4 experience,  it is important that you read the NCTS5 service guide and API reference carefully to understand all of the differences between NCTS4 and NCTS5. Reading only the NCTS5 technical interface specification will NOT guide you about all of the differences between the 2 NCTS phases.
 
