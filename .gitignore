@@ -27,3 +27,4 @@ yarn-error.log
 .metals/
 .vscode/
 /public
+/.bsp/sbt.json
