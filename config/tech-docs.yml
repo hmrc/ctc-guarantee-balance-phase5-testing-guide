@@ -3,7 +3,6 @@ service_name: CTC Guarantee Balance API phase 5 testing guide
 
 # The route that will be used to access this site (with tailing slash)
 service_link: /guides/ctc-guarantee-balance-phase5-testing-guide/
-phase: Beta
 
 # ================================================
 # You shouldn't need to edit anything below here
